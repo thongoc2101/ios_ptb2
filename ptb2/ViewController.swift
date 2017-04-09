@@ -22,6 +22,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // add a comment
         txtA.delegate = self
         txtB.delegate = self
         txtC.delegate = self
